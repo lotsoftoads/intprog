@@ -38,7 +38,7 @@ function App() {
         });
         setData(res);
       });
-  });
+  }, []);
 
   return (
     <Box sx={{ flexGrow: 1 }}>
